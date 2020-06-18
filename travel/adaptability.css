@@ -1,0 +1,335 @@
+@media (max-width: 1023px) {
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .link_logo {
+    margin-right: 0;
+  }
+  .link_menu {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .travel {
+    max-width: 300px;
+  }
+  .title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .travel_text {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .request {
+    max-width: 350px;
+    right: 15px;
+  }
+  .input {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+  .send {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 155px 20px 120px;
+    font-size: 18px;
+  }
+  .quote {
+    font-size: 18px;
+  }
+  .label {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 19px;
+  }
+  .main_title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .inages {
+    margin-top: 97px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .buy_pricing {
+    padding-bottom: 50px;
+  }
+  .main_img:nth-child(1),
+  .main_img:nth-child(2),
+  .main_img:nth-child(3),
+  .main_img:nth-child(4) {
+    margin-right: 190px;
+  }
+  .main_img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+  .text_pricing {
+    font-size: 15px;
+  }
+  .our_story {
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .starter {
+    position: relative;
+  }
+  .business {
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .professional {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial_gallery {
+    flex-direction: column;
+  }
+  .testimonial {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .woman {
+    margin-top: 100px;
+  }
+  .gallery {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .taitl_testimonial {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .taitl_gallety {
+    font-size: 35px;
+    margin-left: 107px;
+  }
+  .text_testimonial {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .text_testimonial_woman {
+    font-size: 15px;
+  }
+  .footer_link_logo {
+    margin-left: 0;
+  }
+  .footer_box {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px) {
+  .head {
+    flex-wrap: wrap;
+  }
+  .link_logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nav {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .link_menu {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .list_menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header_text_input {
+    text-align: center;
+  }
+  .request {
+    position: relative;
+    width: 100%;
+    right: auto;
+    left: auto;
+    margin-top: 20px;
+  }
+  .travel {
+    max-width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header_text {
+    margin-top: 30px;
+  }
+  .travel_text {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .input {
+    max-width: 100%;
+    padding: 19px 105px 23px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+  .send {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 105px 20px 100px;
+    font-size: 18px;
+  }
+  .quote {
+    font-size: 18px;
+  }
+  .label {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 19px;
+  }
+  .main_img:nth-child(1),
+  .main_img:nth-child(2),
+  .main_img:nth-child(3),
+  .main_img:nth-child(4) {
+    margin: 0;
+    margin-bottom: 70px;
+  }
+  .img_text {
+    border-bottom: 1px solid #e3d5b8;
+  }
+  .tools {
+    margin-left: 15px;
+  }
+  .our_story {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card_buy {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inages {
+    align-content: center;
+    flex-direction: column;
+  }
+  .main_title {
+    text-align: center;
+  }
+  .text_our {
+    flex-wrap: wrap;
+  }
+  .text_pricing {
+    margin-right: 0;
+  }
+  .title_pricing {
+    font-size: 30px;
+  }
+  .starter {
+    margin-bottom: 20px;
+  }
+  .buy_pricing {
+    padding: 65px 0 55px 0;
+  }
+  .testimonial {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .gallery {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .taitl_testimonial {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .taitl_gallety {
+    font-size: 25px;
+    margin-left: 67px;
+  }
+  .text_testimonial {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .text_testimonial_woman {
+    font-size: 15px;
+  }
+  .travelera {
+    font-size: 15px;
+  }
+  .travelera_woman {
+    font-size: 15px;
+  }
+  .img_man {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    float: left;
+    margin-left: 20px;
+  }
+  .travelera {
+    margin-left: 0;
+  }
+  .woman {
+    margin-top: 150px;
+  }
+  .img_woman {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    float: left;
+  }
+  .gallery {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .taitl_gallety {
+    text-align: center;
+    margin-left: 0;
+  }
+  .gallery_link {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .gallery_img:nth-child(5),
+  .gallery_img:nth-child(6),
+  .gallery_img:nth-child(7) {
+    margin-bottom: 28px;
+  }
+  .footer {
+    margin-top: 100px;
+  }
+  .footer_link_logo {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footer_box {
+    flex-direction: column;
+  }
+  .footer_text {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
