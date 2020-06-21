@@ -1153,6 +1153,7 @@ body {
 
   .input {
     width: 250px;
+    margin-right: 0;
   }
 
   .bar {
@@ -1280,7 +1281,7 @@ body {
 @media (max-width: 410px) {
   .footer_address_block {
     position: absolute;
-    left: 0%;
+    left: 2%;
     top: 0%;
   }
 
