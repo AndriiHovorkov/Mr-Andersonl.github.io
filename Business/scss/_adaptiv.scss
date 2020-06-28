@@ -194,18 +194,35 @@
   }
   .input {
     width: 250px;
-    margin-right: 0;
+    margin-right: 10px;
   }
   .bar {
     width: 146px;
     left: 50%;
     margin-left: -72px;
   }
-  .slider {
-    top: 5px;
+  .fotorama {
+    top: 4px;
     left: 50%;
     margin-left: -72px;
-    width: 146px;
+    width: 140px;;
+  }
+  .fotorama__img {
+    width: 140px;;
+    height: 79.6157px;
+    left: 3px;
+    top: 7.192135px;
+  }
+  .fotorama__stage__frame.fotorama__active {
+    width: 140px;;
+    height: 79.6157px;
+    left: 3px;
+    top: 7.192135px;
+  }
+  .fotorama__stage {
+    width: 140px;
+    min-height: 88px;
+
   }
   .vector {
     width: 200px;
@@ -216,8 +233,8 @@
   .laptop {
     top: 30px;
   }
-  .radio {
-    margin-top: 20px;
+  .fotorama__nav-wrap {
+    margin-top: 40px;
   }
   .main_title {
     font-size: 16px;
@@ -299,11 +316,25 @@
 @media (max-width: 410px) {
   .footer_address_block {
     position: absolute;
-    left: 2%;
+    left: 15%;
     top: 0%;
   }
   .map_img {
     padding-bottom: 275px;
     margin-bottom: 28px;
+  }
+}
+@media (max-width: 358px) {
+  .footer_address_block {
+    position: absolute;
+    left: 10%;
+    top: 0%;
+  }
+}
+@media (max-width: 358px) {
+  .footer_address_block {
+    position: absolute;
+    left: 2%;
+    top: 0%;
   }
 }

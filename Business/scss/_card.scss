@@ -1,0 +1,112 @@
+.card {
+  max-width: 391px;
+  background-color: #ffffff;
+  padding-top: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccd5df;
+  border-radius: 5px;
+}
+.card_bay {
+  margin-top: 79px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-left: 35px;
+  position: relative;
+}
+.card_title {
+  color: #818b95;
+  font-family: "Lato";
+  font-size: 25px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.numeral {
+  display: flex;
+  justify-content: center;
+}
+.dollar {
+  color: #ffbb42;
+  font-family: "Lato-Bold";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.num {
+  color: #ffbb42;
+  font-family: "Lato-Bold";
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.month {
+  color: #818b95;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 22px;
+  font-variant: small-caps;
+  margin-bottom: 33px;
+}
+.card_list {
+  color: #b5bbc1;
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  border-top: solid 1px #e2e9f0;
+  width: 329px;
+  text-align: center;
+  margin: 0 31px 0 31px;
+}
+.card_link {
+  color: #ffffff;
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: $secondary-color;
+  text-decoration: none;
+  padding: 16px 21px 16px 21px;
+  border-radius: 2px;
+  margin-bottom: 48px;
+  margin-top: 35px;
+}
+.card_link:hover {
+  background-color: $hover_color;
+}
+.card:hover {
+  background-color: $primary-color;
+  height: 550px;
+  top: -20px;
+  max-width: 395px;
+  width: 395px;
+  z-index: 1;
+  color: white;
+}
+.basic {
+  position: absolute;
+  top: 0;
+}
+.premium {
+  position: absolute;
+  left: 390px;
+  top: 0;
+}
+.gold {
+  position: absolute;
+  right: 34px;
+  top: 0;
+}
+.card:hover .card_title {
+  color: white;
+}
+.card:hover .dollar {
+  color: white;
+}
+.card:hover .num {
+  color: white;
+}
+.card:hover .month {
+  color: white;
+}
