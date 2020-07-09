@@ -493,7 +493,7 @@ body {
 }
 
 .about_images {
-  background-image: url(/img/work_table.png);
+  background-image: url(../img/work_table.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

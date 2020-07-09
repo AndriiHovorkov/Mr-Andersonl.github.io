@@ -119,13 +119,12 @@ body {
   margin-right: 35px;
 }
 .about_background {
- 
   background-color: $secondary-color;
   margin-top: 155px;
   display: flex;
 }
 .about_images {
-  background-image: url(/img/work_table.png);
+  background-image: url(../img/work_table.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
