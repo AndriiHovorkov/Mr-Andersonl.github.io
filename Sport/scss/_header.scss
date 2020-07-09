@@ -1,0 +1,114 @@
+.header {
+  background-image: url(../images/top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
+}
+.logo_svg {
+  margin-top: 54px;
+}
+.for_athlets {
+  color: #ffffff;
+  font-family: "Proxima Nova Lt", sans-serif;
+  font-size: 14px;
+  line-height: 34px;
+  text-transform: uppercase;
+  margin-top: 65px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.head_title {
+  color: #ffffff;
+  font-family: "Proxima Nova Bl", sans-serif;
+  font-size: 90px;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+  position: relative;
+}
+.recruiied {
+  margin-top: 20%;
+  position: relative;
+  z-index: 1;
+}
+.play {
+  margin-left: 28%;
+}
+.spot_top {
+  position: relative;
+}
+.line {
+  position: absolute;
+  top: -23%;
+  left: 30%;
+}
+.list_menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav {
+  margin-left: 58%;
+}
+.link_menu {
+  color: #9071ea;
+  font-family: "Proxima Nova Lt", sans-serif;
+  font-size: 14px;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  margin-right: 53px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.ice {
+  margin-right: 0;
+}
+.download {
+  margin-top: 181px;
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  box-shadow: 0 16px 24px #0a0e34;
+  background-color: #5e42b0;
+  text-decoration: none;
+  border-radius: 50px;
+  &:hover {
+    background-color: #5230b8;
+  }
+}
+.download_text {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 28px;
+}
+.link_text {
+  color: #ffffff;
+  font-family: "Proxima Nova Lt", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.link_app {
+  color: #ffffff;
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.link_apple {
+  margin-right: 50px;
+  padding: 19px 65px 21px 43px;
+}
+.google_play {
+  padding: 19px 85px 19px 60px;
+}

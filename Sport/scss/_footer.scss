@@ -1,0 +1,123 @@
+.footer {
+  background-image: url(../images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 229px;
+}
+.footer_title {
+  color: #ffffff;
+  font-family: "Proxima Nova Bl", sans-serif;
+  font-size: 90px;
+  line-height: 90px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+}
+.footer_subtitle {
+  color: #a496ca;
+  font-family: "Proxima Nova Bl", sans-serif;
+  font-size: 36px;
+  line-height: 34.49px;
+  text-transform: uppercase;
+}
+.title_img_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 163px;
+}
+.footer_download {
+  margin-right: 34px;
+}
+.footer_text {
+  position: relative;
+}
+.footer_line {
+  position: absolute;
+}
+.lit {
+  top: -35px;
+  width: 140px;
+  left: 27px;
+}
+.bi {
+  width: 200px;
+  top: -80px;
+  left: 432px;
+}
+.buttons {
+  margin-bottom: 197px;
+}
+.footer_link_download {
+  margin-top: 0;
+}
+.bottom {
+  background-color: rgba(19, 23, 60, 0.7);
+  padding: 70px 0;
+}
+.box_link {
+  width: 137px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo {
+  margin-top: 0;
+}
+.us {
+  border-right: solid 2px;
+  padding-right: 10px;
+}
+.contact_us_link {
+  color: #ffffff;
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 5px;
+  text-decoration: none;
+  &:hover {
+    color: #c8b5f3;
+    transition: 0.3s;
+  }
+}
+.bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1543px) {
+  .bi {
+    width: 200px;
+    top: -62px;
+    left: 369px;
+  }
+}
+@media (max-width: 772px) {
+  .lit {
+    left: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .footer_title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .footer_subtitle {
+    font-size: 10px;
+  }
+  .footer {
+    padding-top: 100px;
+  }
+  .lit {
+    top: -28px;
+    width: 88px;
+    left: 37px;
+  }
+    .bi {
+      width: 130px;
+      top: -41px;
+      left: 111px;
+  }
+    .buttons {
+      margin-bottom: 62px;
+  }
+}

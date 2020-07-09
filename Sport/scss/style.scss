@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Proxima Nova Rg", sans-serif;
+  min-width: 320px;
+}
+.container {
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+@import "fonts";
+@import "header";
+@import "main";
+@import "adaptiv";
+@import "footer";

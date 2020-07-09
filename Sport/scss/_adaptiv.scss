@@ -1,0 +1,266 @@
+@media (max-width: 1541px) {
+  .nav {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1447px) {
+  .square {
+    right: 80%;
+    top: 92%;
+  }
+}
+@media (max-width:1296px) {
+  .basketball {
+    right: -15%;
+  }
+}
+@media (max-width: 1200px) {
+  .head_title {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 3.52px;
+  }
+  .play {
+    margin-bottom: 184px;
+  }
+  .nav {
+    margin-left: 0;
+  }
+  .list_menu {
+    justify-content: center;
+  }
+  .main_text {
+    max-width: 421px;
+  }
+  .athlets_title {
+    margin-right: 3%;
+  }
+
+  .lit {
+    top: -44px;
+    width: 151px;
+    left: 65px;
+  }
+  .contact_us {
+    display: none;
+  }
+  .foo_logo {
+    display: none;
+  }
+  .box_link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footballer {
+    right: 336px;
+  }
+  .photo_block {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1125px) {
+  .basketball {
+    right: -35%;
+  }
+}
+
+@media (max-width: 1042px) {
+  .square {
+    right: 70%;
+    top: 90%;
+  }
+}
+@media (max-width: 964px) {
+  .basketball {
+    right: -52%;
+  }
+}
+@media (max-width: 856px) {
+  .basketball {
+    right: -60%;
+  }
+}
+@media (max-width: 810px) {
+  .footer_title {
+    font-size: 80px;
+  }
+  .basketball {
+    right: -68%;
+  }
+}
+@media (max-width: 767px) {
+  .head_title {
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: 1.76px;
+  }
+  .header {
+    padding-bottom: 20px;
+  }
+  .for_athlets {
+    display: none;
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .recruiied {
+    margin-top: 30%;
+  }
+  .play {
+    margin-bottom: 120px;
+  }
+  .nav {
+    margin-top: 45px;
+  }
+  .line {
+    top: -100px;
+    width: 30%;
+  }
+  .link_menu {
+    margin-right: 33px;
+    font-size: 12px;
+  }
+  .link_text {
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .link_app {
+    font-size: 8px;
+    line-height: 8px;
+  }
+  .download {
+    margin-top: 0;
+    max-width: 140px;
+  }
+  .download_img {
+    width: 16px;
+  }
+  .link_apple {
+    margin-right: 8px;
+    padding: 11px 17px 11px 20px;
+  }
+  .google_play {
+    padding: 10px 30px 11px 30px;
+  }
+  .download_text {
+    margin-left: 8px;
+  }
+  .nav_button {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .img_title {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+  .athlets_title {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 19px;
+    margin-left: 30px;
+  }
+  .connect_title {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 1.4px;
+  }
+  .connect_title {
+    margin-top: 28px;
+  }
+  .athlets {
+    display: none;
+  }
+  .footballer {
+    position: relative;
+    width: 100%;
+    right: 0;
+  }
+  .basketball {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0;
+  }
+  .link_menu {
+    margin-right: 25px;
+  }
+  /* slider */
+  .slider_box {
+    display: block;
+  }
+  .slider_box_color {
+    background-color: #f5f4f9;
+  }
+  .main_text {
+    max-width: 100%;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .fotorama__stage {
+    min-height: 321px;
+  }
+  .fotorama__nav-wrap {
+    margin-top: 32px;
+  }
+  .fotorama__wrap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fotorama__nav__frame.fotorama__active .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #5c3caf;
+  }
+  .fotorama__dot {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #d8d8d8;
+  }
+  .numb {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .number_grow::after {
+    content: "";
+    display: block;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #530edd;
+  }
+
+  /* /slider */
+
+  .players_title {
+    font-size: 50px;
+  }
+  .footer_download {
+    max-width: 73px;
+  }
+}
+@media (max-width: 564px) {
+  .line {
+    top: -25px;
+    width: 30%;
+  }
+  .square {
+    right: 70%;
+    top: 85%;
+  }
+}
+@media (max-width: 386px) {
+  .line {
+    top: -20px;
+    width: 50%;
+  }
+  .square {
+    right: 60%;
+    top: 80%;
+  }
+}
