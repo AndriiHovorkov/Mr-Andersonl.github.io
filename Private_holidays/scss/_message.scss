@@ -1,0 +1,41 @@
+.message {
+    background-color: #ffffff;
+    max-width: 391px;
+    padding: 42px 41px 39px 44px;
+}
+.quote {
+    color: #1a1a1a;
+    font-family: "Kepler Std - Bold Disp";
+    font-size: 30px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.input {
+    max-width: 305px;
+    padding: 9px 105px 9px 10px;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+.inputs {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.button__send {
+    margin: 0;
+}
+.box_input {
+    margin-top: 90px;
+}
+
+@media(max-width: 382px) {
+    .message {
+        max-width: 320px;
+    }
+    .input {
+        max-width: 235px;
+    }
+}

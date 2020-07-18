@@ -1,0 +1,132 @@
+.footer {
+    margin-top: 100px;
+}
+.footer__img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.footer-images {
+    max-height: 694px;
+    position: relative;
+    background-color: #171d1c;
+}
+.message {
+    position: absolute;
+    max-height: 400px;
+    bottom: 0;
+    left: 60%;
+}
+.footer-block {
+    background-color: #171d1c;
+    padding: 47px 0 47px 0;
+}
+.footer-block-inform {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-block-link:nth-child(1),
+.footer-block-link:nth-child(2),
+.footer-block-link:nth-child(3),
+.footer-block-link:nth-child(4) {
+    margin-right: 40px;
+}
+.block-link_popular {
+    display: flex;
+}
+.footer-block-link {
+    max-width: 147px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_title_link {
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer_link {
+    color: #b9bbba;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    &:hover {
+        color: red;
+    }
+}
+.address_info {
+    color: #b9bbba;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-address-block {
+    text-align: right;
+    max-width: 173px;
+    margin-left: 270px;
+}
+.footer_title_link__address {
+    margin-top: 20px;
+}
+.phone {
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 24px;
+}
+@media(max-width: 1200px) {
+    .message {
+        bottom: 3px;
+    }
+}
+@media(max-width: 1130px) {
+    .footer-address-block {
+        margin-left: 100px;
+    }
+}
+@media(max-width: 959px) {
+    .message {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+        left: 0;
+    }
+    .footer-images {
+        background-color: #ecf0f1;
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+    .footer-address-block {
+        margin-left: 0;
+    }
+    .footer-block-inform {
+        justify-content: center;
+    }
+    .footer-block-link {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 430px) {
+    .footer-block-inform {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-block-link:nth-child(1), 
+    .footer-block-link:nth-child(2), 
+    .footer-block-link:nth-child(3), 
+    .footer-block-link:nth-child(4) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 382px) {
+    .message {
+        max-width: 320px;
+    }
+    .input {
+        max-width: 300px;
+    }
+}

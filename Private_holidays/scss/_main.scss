@@ -1,0 +1,358 @@
+.title_vacation {
+    color: #171d1c;
+    font-family: 'Kepler Std - Bold Disp';
+    font-size: 48px;
+    text-align: center;
+}
+.slid_show {
+    margin-top: 180px;
+    margin-bottom: 30px;
+}
+.photo_title {
+    display: inline-block;
+    vertical-align: top;
+    color: #454851;
+    font-family: 'Kepler Std - Bold Disp';
+    font-size: 24px;
+    border: 1px solid;
+    padding: 24px 37px 23px 36px;
+}
+.beachfront {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    padding: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    min-width: 300px;
+    text-align: center;
+}
+.group {
+    padding: 24px 55px 23px 57px;
+}
+.breaks {
+    padding: 24px 73px 23px 80px;
+}
+.block_vacation {
+    position: relative;
+}
+.last_vacation {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block_vacation:nth-child(1),
+.block_vacation:nth-child(2) {
+    margin-right: 30px;
+}
+.fotorama__wrap--only-active .fotorama__nav, .fotorama__wrap--only-active .fotorama__stage {
+    margin: 0 0 20px 0;
+}
+.fotorama__dot {
+    border-radius: 0;
+    border: 1px solid #171d1c;
+    transform: rotate(45deg);
+}
+.recent {
+    margin-top: 97px;
+}
+.locations {
+    max-width: 555px;
+    background-color: #ffffff;
+    display: flex;
+}
+.locations_img {
+    max-width: 278px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.locations_title {
+    color: #171d1c;
+    font-family: 'Kepler Std - Bold Disp';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.locations_inform {
+    margin: 30px 0 0 19px;
+    padding-right: 20px;
+}
+.locations_text {
+    max-width: 238px;
+    color: #454851;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 29px;
+}
+.img_form {
+    margin-bottom: 40px;
+    position: relative;
+}
+.holiday {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+.locations:nth-child(1),
+.locations:nth-child(3) {
+    margin-right: 30px;
+}
+.fotorama__nav-wrap {
+    margin-bottom: 20px;
+}
+.locations {
+    margin-bottom: 30px;
+}
+.hotell_img:nth-child(3),
+.hotell_img:nth-child(4),
+.hotell_img:nth-child(5),
+.hotell_img:nth-child(6),
+.hotell_img:nth-child(7),
+.hotell_img:nth-child(9) {
+    margin-left: 20px;
+}
+.fotorama_mobil{
+    display: none;
+}
+.fotorama_mobil_767 {
+    display: none;
+}
+.fotorama_mobil_hot {
+    display: none;
+}
+.fotorama_mobil_767_hot {
+    display: none;
+}
+.bed {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #454851;
+    left: 35px;
+    top: -3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.bed::after {
+    content: "";
+    position: absolute;
+    border: 6px solid transparent; 
+    border-right: 8px solid #394b50;
+    left: -14px;
+    bottom: 4px;
+}
+.hotell_img:hover + .bed {
+    display: block;
+}
+.bath {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #454851;
+    left: 94px;
+    top: -3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.bath::after {
+    content: "";
+    position: absolute;
+    border: 6px solid transparent; 
+    border-right: 8px solid #394b50;
+    left: -14px;
+    bottom: 4px;
+}
+.hotell_img:hover + .bath {
+    display: block;
+}
+.beachfr{
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #454851;
+    left: 151px;
+    top: -3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.beachfr::after {
+    content: "";
+    position: absolute;
+    border: 6px solid transparent; 
+    border-right: 8px solid #394b50;
+    left: -14px;
+    bottom: 5px;
+}
+.hotell_img:hover + .beachfr {
+    display: block;
+}
+.pool {
+    display: none;
+    position: absolute;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #454851;
+    left: 186px;
+    top: -3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.poolli {
+    left: 150px;
+}
+.pool::after {
+    content: "";
+    position: absolute;
+    border: 6px solid transparent; 
+    border-right: 8px solid #394b50;
+    left: -14px;
+    bottom: 5px;
+}
+.hotell_img:hover + .pool {
+    display: block;
+}
+
+.different_text {
+    max-width: 328px;
+    margin-top: 24px;
+}
+.different {
+    color: #171d1c;
+    font-family: "Kepler Std - Bold Disp";
+    font-size: 24px;
+    text-align: center;
+    max-width: 328px;
+    
+}
+.are_text {
+    color: #454851;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 16px;
+}
+.gard_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.different:nth-child(1),
+.different:nth-child(2) {
+    margin-right: 60px;
+}
+.fotorama_mob_diff {
+    display: none;
+}
+.fotorama_mob_min_diff {
+    display: none;
+}
+@media(max-width:1140px) {
+
+    .fotorama_desk {
+        display: none;
+    }
+    .fotorama_mobil{
+        display: block;
+    }
+    .locations:nth-child(1),
+    .locations:nth-child(3) {
+        margin-right: 0;
+    }
+    
+}
+@media (max-width: 1133px) {
+
+    .different:nth-child(1), 
+    .different:nth-child(2) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .different {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1110px) {
+    .fotorama_desk_hot {
+        display: none;
+    }
+    .fotorama_mobil_hot {
+        display: block;
+    }
+}
+@media (max-width: 1013px) {
+    .fotorama_desk_diff {
+        display: none;
+    }
+    .fotorama_mob_diff {
+        display: block;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px) {
+    .block_vacation:nth-child(1), .block_vacation:nth-child(2) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .slid_show {
+        margin-top: 60px;
+    }
+    .locations_inform {
+        text-align: center;
+    }
+    .locations:nth-child(1), .locations:nth-child(3) {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 720px) {
+    .fotorama_mobil{
+        display: none;
+    }
+    .fotorama_mobil_767 {
+        display: block;
+    }
+}
+@media (max-width: 666px) {
+    .fotorama_mob_diff {
+        display: none;
+    }
+    .fotorama_mob_min_diff {
+        display: block;
+    }
+}
+@media (max-width: 565px) {
+    .locations {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fotorama_mobil_hot {
+        display: none;
+    }
+    .fotorama_mobil_767_hot {
+        display: block;
+    }
+}
+@media (max-width: 555px) {
+    .locations:nth-child(1), .locations:nth-child(3) {
+        margin-right: 0;
+    }
+}
