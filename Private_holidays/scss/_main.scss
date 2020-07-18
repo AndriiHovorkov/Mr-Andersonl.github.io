@@ -308,11 +308,26 @@
         margin-bottom: 30px;
     }
 }
-@media (max-width:767px) {
-    .block_vacation:nth-child(1), .block_vacation:nth-child(2) {
+@media (max-width:  779px) {
+    .fotorama_mobil{
+        display: none;
+    }
+    .fotorama_mobil_767 {
+        display: block;
+    }
+    .last_vacation {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block_vacation:nth-child(1), 
+    .block_vacation:nth-child(2) {
         margin-right: 0;
         margin-bottom: 10px;
     }
+}
+@media (max-width:767px) {
     .slid_show {
         margin-top: 60px;
     }
@@ -323,15 +338,8 @@
         margin-right: 10px;
     }
 }
-@media (max-width: 726px) {
-    .fotorama_mobil{
-        display: none;
-    }
-    .fotorama_mobil_767 {
-        display: block;
-    }
-}
-@media (max-width: 666px) {
+
+@media (max-width:666px) {
     .fotorama_mob_diff {
         display: none;
     }

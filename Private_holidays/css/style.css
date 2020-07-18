@@ -152,10 +152,13 @@ body {
   width: 155px;
   height: 53px;
   border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   background-image: url(../img/dropdown_copy_2.png);
   background-repeat: no-repeat;
-  background-position: 136px;
+  background-position: 138px;
   border-bottom: 1px solid;
   opacity: 0.6;
   outline: none;
@@ -658,12 +661,29 @@ body {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 767px) {
-  .block_vacation:nth-child(1), .block_vacation:nth-child(2) {
+@media (max-width: 779px) {
+  .fotorama_mobil {
+    display: none;
+  }
+
+  .fotorama_mobil_767 {
+    display: block;
+  }
+
+  .last_vacation {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block_vacation:nth-child(1),
+.block_vacation:nth-child(2) {
     margin-right: 0;
     margin-bottom: 10px;
   }
-
+}
+@media (max-width: 767px) {
   .slid_show {
     margin-top: 60px;
   }
@@ -674,15 +694,6 @@ body {
 
   .locations:nth-child(1), .locations:nth-child(3) {
     margin-right: 10px;
-  }
-}
-@media (max-width: 720px) {
-  .fotorama_mobil {
-    display: none;
-  }
-
-  .fotorama_mobil_767 {
-    display: block;
   }
 }
 @media (max-width: 666px) {
