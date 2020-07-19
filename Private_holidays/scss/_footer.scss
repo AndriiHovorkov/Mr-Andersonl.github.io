@@ -112,10 +112,9 @@
 }
 @media(max-width: 430px) {
     .footer-block-inform {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     .footer-contain {
         display: flex;
