@@ -112,8 +112,16 @@
 }
 @media(max-width: 430px) {
     .footer-block-inform {
-        flex-direction: column;
-        align-items: center;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-contain {
+        display: flex;
+    }
+    .footer-address-block {
+        text-align: left;
     }
     .footer-block-link:nth-child(1), 
     .footer-block-link:nth-child(2), 
