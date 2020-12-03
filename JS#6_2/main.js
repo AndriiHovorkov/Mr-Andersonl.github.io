@@ -7,32 +7,20 @@ console.log(B);
 line ='__________________________________________'
 console.log(line);
 
-
+function sumArr(z){
+    var sum = 0;
+    for(var i = 0; i < z.length; i++){
+        if (typeof z[i] == "number"){
+            sum += z[i];
+        }
+        
+    }
+    return sum;
+}
+sumArr(A)
+sumArr(B)
 
 function compare(a, b){
-
-
-    function num (x){
-        for (var i = x.length - 1; i >= 0; i--) {
-            if (typeof x[i] !== "number"){
-                x.splice(i, 1);
-            }
-            return;
-        }
-    }
-    num (a);
-    num (b);
-
-    function sumArr(z){
-        var sum = 0;
-        for(var i = 0; i < z.length; i++){
-            sum += z[i];
-            return sum;
-        }
-    }
-    sumArr(a)
-    sumArr(b)
-
     if(sumArr(a) > sumArr(b)){
         console.log(A); 
         console.log(sumArr(a));
@@ -44,6 +32,3 @@ function compare(a, b){
     }
 }
 compare(A, B);
-
-
-
