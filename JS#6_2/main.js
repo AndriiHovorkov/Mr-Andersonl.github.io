@@ -11,35 +11,37 @@ console.log(line);
 
 function compare(a, b){
 
-    for (var i = a.length - 1; i >= 0; i--) {
-        if (typeof a[i] !== "number"){
-            a.splice(i, 1);
-        }
-    }
 
-    for (var j = b.length - 1; j >= 0; j--) {
-        if (typeof b[j] !== "number"){
-            b.splice(j, 1);
+    function num (x){
+        for (var i = x.length - 1; i >= 0; i--) {
+            if (typeof x[i] !== "number"){
+                x.splice(i, 1);
+            }
+            return;
         }
     }
-    var sum = 0;
-    for(var i = 0; i < a.length; i++){
-        sum += a[i];
-        
+    num (a);
+    num (b);
+
+    function sumArr(z){
+        var sum = 0;
+        for(var i = 0; i < z.length; i++){
+            sum += z[i];
+            return sum;
+        }
     }
-    var s = 0;
-    for(var j = 0; j < b.length; j++){
-        s += b[j];
-    }
-    if(sum > s){
+    sumArr(a)
+    sumArr(b)
+
+    if(sumArr(a) > sumArr(b)){
         console.log(A); 
-        console.log(sum);
+        console.log(sumArr(a));
+        return A;
     }else {
         console.log(B); 
-        console.log(s);
+        console.log(sumArr(b));
+        return B;
     }
-    
-
 }
 compare(A, B);
 
