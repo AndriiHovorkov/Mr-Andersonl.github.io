@@ -1,7 +1,5 @@
 function delSym(string, sym) {
-    rgx = new RegExp(sym.join('|'), 'gi');
-    cleanStr= string.replace(rgx, '');
-    return cleanStr;
+    let rgx = new RegExp(sym.join('|'), 'gi');
+    return  string.replace(rgx, '');
 }
-delSym("hello world", ['l', 'd'])
-console.log(cleanStr);
+console.log(delSym("hello world", ['l', 'd']));
