@@ -3,6 +3,7 @@ B = [];
 C = [];
 D = [];
 E = [];
+
 function fillArr(n){
     n.length = 10; 
     for (let i = 0; i < n.length; i++) {
@@ -17,8 +18,6 @@ fillArr(C);
 fillArr(D);
 fillArr(E);
 
-let maxArr =[];
-
 function getM(abc){
     let maxValue = abc[0]
     for(let i = 0; i < abc.length; i++){
@@ -26,18 +25,16 @@ function getM(abc){
             maxValue = abc[i];
         }
     }
-    maxArr.push(maxValue)
-    return arrStr = maxArr.join(', ');
+    return maxValue; 
 }
-
 function getMax(){
-    let allArrs = [arguments];
-    for(let k = 0; k < allArrs.length; k++){
-        for(let j = 0; j < allArrs[k].length; j++){
-            getM(allArrs[k][j]);
-            console.log(allArrs[k][j]);
-        }
+    let maxArr =[];
+    for(let k = 0; k < arguments.length; k++){
+            maxArr.push(getM(arguments[k]));
+            console.log(arguments[k]);
     }
+    console.log(maxArr);
+    return arrStr = maxArr.join(', ');
 }
 
 getMax(A,B,C,D,E);
