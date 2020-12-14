@@ -34,12 +34,10 @@ function getMax(){
             console.log(arguments[k]);
     }
     console.log(maxArr);
-    return arrStr = maxArr.join(', ');
+    console.log(maxArr.join(', '));
+    return;
 }
 
 getMax(A,B,C,D,E);
-
-console.log(arrStr);
-
 
 
