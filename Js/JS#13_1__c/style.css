@@ -1,0 +1,60 @@
+* {
+    box-sizing:border-box;
+}
+
+.block {
+    width: 700px;
+    height: 350px;
+    position: relative;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 5px 0;
+    box-sizing: border-box;
+}
+
+.Mario{
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+.item_menu {
+    list-style: none;
+    margin-bottom: 5px;
+    cursor: default;
+}
+.item_menu:hover {
+    background-color:darkgrey;
+}
+.ul_menu {
+    list-style: none;
+    margin-left: -20px;
+}
+.context_menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    width: 170px;
+    background-color: #fff;
+    border: solid 1px #dfdfdf;
+    box-shadow: 1px 1px 2px #cfcfcf;
+    z-index: 110;
+}
+
+.context_menu_doc {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    width: 170px;
+    background-color: #fff;
+    border: solid 1px #dfdfdf;
+    box-shadow: 1px 1px 2px #cfcfcf;
+    z-index: 140;
+}
+.active{
+    display: block;
+}
