@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="main.js"></script>
+        <style>
+            [class*="player-"] {
+                position: fixed;
+            }
+            .solid {
+                border: 2px solid black;
+            }
+    
+            .products {
+                display: flex;
+            }
+    
+            .product {
+                height: 200px;
+                width: 120px;
+                border-radius: 20px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+    
+            .product__title {
+                text-align: center;
+                margin-top: 25px;
+            }
+            .product__price {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+    
+            .product__image {
+                width: 100%;
+            }
+    
+            .grey {
+                background-color: grey;
+            }
+            .clear {
+                margin-top: 10px;
+            }
+            .sing {
+                background-color:lavender;
+                padding: 0px 2px;
+                cursor: pointer;
+            }
+            .sing:hover {
+                background-color: greenyellow;
+            }
+            .cart_amoun {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                height: 150px;
+            }
+            .selec {
+                margin-left: 10px;
+            } 
+            .wrapper{
+                padding: 0 10px;
+            }
+        </style>
+    </head>
+    <body style="font-family: monospace;">
+
+        <div class="wrapper">
+            <ul class="user-list"></ul>
+
+            <div class="products"></div>
+            <hr>
+
+            <div class="cart_amoun">
+                <div>
+                    Total: <span id="total">0</span>
+                    <select class="selec" name="select" id="select">
+                        <option class="currency-uah" value="value1">UAH</option>
+                        <option class="currency-eur" value="value2">EUR</option>
+                        <option class="currency-usd" value="value3">USD</option>
+                    </select>
+                </div>
+
+                <div class="min-plu">
+                    <button class="sing minus-total1">-</button>
+                    Total-1: <span id="total-1">0</span>
+                    <button class="sing plus-total1">+</button>
+                </div>
+
+                <div class="min-plu">
+                    <button class="sing minus-total2">-</button>
+                    Total-2: <span id="total-2">0</span>
+                    <button class="sing plus-total2">+</button>
+                </div>
+
+                <button class="clear">Clear all</button>
+            </div>
+        </div>
+
+    </body>
+</html>
