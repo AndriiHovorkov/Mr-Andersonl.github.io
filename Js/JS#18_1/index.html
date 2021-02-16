@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="main.js"></script>
+        <style>
+            .block{
+                width: 200px;
+                height: 200px;
+                border: black solid 2px;
+                margin-right: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                justify-items: center;
+            }
+            .ClearCount{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 20px;
+            }
+            .set_counter{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="block contein1" id="id-1">
+                <p>counter:<span class="count1">0</span></p>
+                <button class="click1">Click</button>
+            </div>
+    
+            <div class="block contein2" id="id-2">
+                <p>counter:<span class="count2">0</span></p>
+                <button class="click2">Click</button>
+            </div>
+        </div>
+        <button class="ClearCount">Clear Counters</button>
+
+        <button class="set_counter">Set Counter</button>
+        
+    </body>
+</html>
