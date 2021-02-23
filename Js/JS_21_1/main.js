@@ -17,30 +17,27 @@ window.addEventListener('load', function(){
         xhr.send(JSON.stringify(options.body)); // 1s
     }
 
-
     name.addEventListener('input', function(){
         this.value = this.value.replace(numb, '');
-        return name.value
+        return name.value 
     })
     age.addEventListener('input', function(){
         this.value = this.value.replace(letters, '');
         return age.value
     })
-    const nameVelue= name.value;
-    const ageVelue= age.value;
-
-    const body = { 
-        name: nameVelue,
-        age:  ageVelue,
-    };
+    
     sand.addEventListener('click', event => {
         event.preventDefault
-        
+
+        let body = { 
+            name: name.value,
+            age:  age.value,
+        };
+
         request({
             method: 'POST',
             body,
             url: '/registration'
         });
     })
-    console.log(body);
 })
