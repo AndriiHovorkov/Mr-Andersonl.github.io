@@ -14,7 +14,7 @@ const openWeatherConfig = {
     protocol: 'http://',
     domain: 'api.openweathermap.org',
     resourceBase: '/data/2.5',
-    API_KEY: '2960d7e9285f2144c08a715335483775', // NO SAVE IN REPO
+    API_KEY: '', // NO SAVE IN REPO
 };
 
 const {protocol, domain, resourceBase, API_KEY} = openWeatherConfig;
