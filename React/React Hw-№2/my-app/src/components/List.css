@@ -1,0 +1,29 @@
+.list-wrap {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border: black solid 1px;
+    overflow: auto;
+}
+.input-wrap {
+    width: 600px;
+    margin: 0 auto;
+}
+.item-list {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.yellow {
+    background-color:yellow;
+}
+.green {
+    background-color:green;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
