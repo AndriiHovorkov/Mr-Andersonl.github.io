@@ -1,0 +1,7 @@
+th {
+    border: black solid 1px;
+}
+.delite:hover{
+    cursor: pointer;
+    background-color: brown;
+}
