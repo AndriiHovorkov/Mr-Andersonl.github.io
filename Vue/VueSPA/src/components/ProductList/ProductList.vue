@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="cont">
         <ProductItem
             v-for="(products, index) in products" :key="index"
             v-bind:products="products"
@@ -18,3 +18,12 @@
         }
     }
 </script>
+
+<style scoped>
+    #cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
