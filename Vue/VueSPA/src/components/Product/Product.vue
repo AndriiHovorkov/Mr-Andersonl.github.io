@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Product">
         <ProductList
             v-bind:products="products"
         />
@@ -11,7 +11,7 @@
     import ProductList from '../ProductList/ProductList.vue'
 
     export default {
-
+        name:'Product',
         data() {
             return {
                 products: [
