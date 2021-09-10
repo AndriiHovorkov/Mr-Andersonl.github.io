@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Product/>
+    <ProductList />
   </div>
 </template>
 
 <script>
-  import Product from '@/components/Product/Product'
+  import ProductList from '@/components/ProductList/ProductList'
   export default {
     name: 'App',
     components: {
-      Product
+      ProductList 
     }
   }
 </script>

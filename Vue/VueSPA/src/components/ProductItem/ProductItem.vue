@@ -1,6 +1,6 @@
 <template>
     <div class="ProductItem">
-        <div class="wrap_img"><img :src="products.image_link" alt="image" class="img"/></div>
+        <div class="wrap_img"><img :src="products.api_featured_image" alt="image" class="img"/></div>
         <span class="text"> {{products.name}}</span>
         <span class="text"> Brand: {{products.brand}}</span>
         <span class="text"> Colour: {{products.product_colors[0].colour_name}}</span>
